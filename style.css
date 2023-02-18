@@ -1,0 +1,44 @@
+* {
+	font-family: arial;
+}
+
+.nav {
+	color: #f9faf8;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	border-bottom: 1px solid black;
+
+}
+
+.nav p {
+	display: inline;
+	font-size: 24px;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.nav li {
+	display: flex;
+	align-items: center;
+	margin: 0px 30px;
+	font-size: 18px;
+}
+
+
+.logo {
+	display: flex;
+
+}
+
+.hero {
+	background-color: #1F2937;
+	color: #e5e7eb;
+}
